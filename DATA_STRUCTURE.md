@@ -72,9 +72,15 @@ Each trial is represented as a structured entry, with the following key componen
 
 ---
 
-### **2.6 `firstspike` and `spiketimesdiff`**
+### **2.6 `firstspike`**
 - **`firstspike`**:
   - Time (in samples) of the first spike relative to the start of the trial.
+
+---
+
+
+### **2.7 `spiketimesdiff`**
+
 - **`spiketimesdiff`**:
   - Inter-spike intervals (in samples) for all subsequent spikes.
 - **Usage**:
@@ -86,22 +92,23 @@ Each trial is represented as a structured entry, with the following key componen
 
 ---
 
-### **2.7 `spikeinfo`**
+
+### **2.8 `spikeinfo`**
 - **Type**: `Nx2 uint16`
 - **Content**:
-  - **Column 1**: Channel numbers corresponding to each spike.
+  - **Column 1**: Channel numbers corresponding to each spike (64 different channels).
   - **Column 2**: Spike identifiers.
 
 ---
 
-### **2.8 `result`**
+### **2.9 `result`**
 - **Type**: Integer
 - **Content**:
   - Encodes the trial outcome (specific codes depend on the task definition).
 
 ---
 
-### **2.9 `params`**
+### **2.10 `params`**
 - **Type**: `struct`
 - **Content**:
   - Nested structure containing parameters for the trial/block. Key fields include:
@@ -112,6 +119,8 @@ Each trial is represented as a structured entry, with the following key componen
       - `minDelayMs`: Minimum delay duration (in ms).
       - `choiceTrial`: Indicates if this was a choice trial.
       - `choice`: The chosen option.
+    - **`params.block`**:
+      - 
 
 ---
 
@@ -131,5 +140,3 @@ Each trial is represented as a structured entry, with the following key componen
 - **Parameters**: `params.trial` encodes metadata crucial for interpreting trial conditions.
 
 ---
-
-This structure provides a complete representation of each trial, integrating neural, behavioral, and task-specific data. If any fields or parameters are unclear, feel free to raise an issue or contact the project maintainers.
