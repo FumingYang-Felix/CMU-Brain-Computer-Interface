@@ -10,6 +10,7 @@ Required Data Fields:
 spikeinfo: Contains time series of muscle signals.
 trialcodes: For extracting trial conditions.
 
+_______________________________________________________________________________________________________
 
 2. EMG Analysis During Delay Phase
 
