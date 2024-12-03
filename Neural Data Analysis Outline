@@ -38,3 +38,17 @@ Required Data Fields:
 
 spiketimesdiff: Basis for firing rate computation.
 trialcodes: For trial grouping.
+
+_______________________________________________________________________________________________________
+
+4. Neural Signal Aggregation
+
+Objective:
+
+- Use Factor Analysis (FA) to aggregate neural data across trials and sessions.
+- Generate low-dimensional neural representations for each condition.
+
+Required Data Fields:
+
+spiketimesdiff: Neural activity across trials.
+params: Task condition information.
