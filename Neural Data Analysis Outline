@@ -10,6 +10,7 @@ Required Data Fields:
 spiketimesdiff: Neural spike times.
 params: To group trials by reward conditions.
 
+_______________________________________________________________________________________________________
 
 2. Single-Unit Tuning Analysis
 
@@ -24,6 +25,7 @@ Required Data Fields:
 spiketimesdiff: Neural spike times.
 params: For grouping and statistical analysis.
 
+_______________________________________________________________________________________________________
 
 3. Trial-to-Trial Variability Analysis
 
