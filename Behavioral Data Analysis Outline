@@ -12,6 +12,7 @@ trialcodes: To extract task conditions for each trial.
 result: To identify whether a trial was successful.
 event: To detect the timing of "go cue" and target acquisition.
 
+_______________________________________________________________________________________________________
 
 2. Single-Trial Behavioral Metrics
 
