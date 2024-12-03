@@ -1,0 +1,18 @@
+1. Success Rates and Failure Modes Analysis
+
+Objective:
+
+- Calculate the success rates of the main task and group them by reward levels (Small, Medium, Large).
+- Use bootstrapping to compute confidence intervals for success rates.
+- Categorize failure types, including "overshoot" (cursor passes the target) and "undershoot" (cursor fails to reach the target).
+
+
+
+2. Single-Trial Behavioral Metrics
+
+Objective:
+
+- Peak Speed: Compute the peak cursor speed for each trial.
+- Reaction Time: Measure the time from "go cue" to the point where the cursor speed reaches 20% of the peak speed.
+- Homing Time: Calculate the time taken for the cursor to cover the last third of the distance to the target and reach the target boundary.
+- Off-Axis Error: Measure the cursor’s deviation from the target vector at the time of peak speed.
