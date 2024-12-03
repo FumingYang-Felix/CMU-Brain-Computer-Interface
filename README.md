@@ -1,18 +1,17 @@
 # Chase-Lab
 Data Structure and Analysis Overview
 
+_______________________________________________________________________________________________________
+
 Introduction:
 This repository documents the dataset structure and analysis pipeline for experiments investigating decision-making behavior and neural responses in rhesus macaques during delayed reaching tasks. The study builds upon existing methodologies while incorporating new experimental design elements to address how reward levels, target angles, and task difficulty influence behavioral and neural outcomes.
 
-##############################################################################################################################################################################################
+_______________________________________________________________________________________________________
 
 Background:
 The foundational experimental setup involved three adult male rhesus macaques performing delayed center-out reaching tasks. Each monkey interacted with targets under varying conditions while neural data from the primary motor cortex (M1) and dorsal premotor cortex (PMd) were recorded using implanted Utah arrays. Behavioral data, such as reaction times and success rates, were collected alongside neural spike data, providing a comprehensive view of task performance and neural engagement.
 
-
-##############################################################################################################################################################################################
-
-
+_______________________________________________________________________________________________________
 ***** Key Experimental Details from Previous Studies *****
 
   1. Task Design:
@@ -32,9 +31,7 @@ Neural activity was recorded with high temporal resolution and analyzed for dire
 For Monkey R, surface EMG data were recorded to assess muscle activation during the tasks, providing additional insights into the motor execution phase.
   
 
-##############################################################################################################################################################################################
-
-  
+_______________________________________________________________________________________________________
 ***** New Experimental Design *****
 Building on these foundational methods, the current study introduces new task parameters to further dissect the role of task difficulty and simplified reward structures in decision-making and neural tuning.
 
@@ -56,9 +53,7 @@ Difficulty modulates the precision required for successful target acquisition.
 A 3x3 grid of experimental conditions (Reward x Difficulty) is established. In each trial, two combinations from this grid are presented, one at each target angle (70° and 250°). This ensures that monkeys encounter varying levels of reward and difficulty simultaneously.
 
 
-##############################################################################################################################################################################################
-
-
+_______________________________________________________________________________________________________
 ***** Experimental Goals *****
   1. Behavioral Objectives:
 
@@ -76,9 +71,7 @@ Determine how simplified conditions and added difficulty parameters alter behavi
 Structure of this Repository
 
 
-##############################################################################################################################################################################################
-
-
+_______________________________________________________________________________________________________
 ***** This repository is organized as follows *****
 Data Structure:
 Details the organization of behavioral and neural datasets, including raw and preprocessed data formats.
