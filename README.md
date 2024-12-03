@@ -75,19 +75,19 @@ Structure of this Repository
 _______________________________________________________________________________________________________
 This repository is organized as follows (You can directly search by name):
 
-    Behavioral Data Analysis Outline
+    1. Behavioral Data Analysis Outline
   
    - Success Rates and Failure Modes Analysis
   
    - Single-Trial Behavioral Metrics
 
-    Surface EMG Analysis Outline
+    2. Surface EMG Analysis Outline
 
    - Directional Tuning of EMG Signals
   
    - EMG Analysis During Delay Phase
 
-    Neural Data Analysis Outline
+    3. Neural Data Analysis Outline
 
    - PSTH Analysis
   
@@ -98,7 +98,7 @@ This repository is organized as follows (You can directly search by name):
    - Neural Signal Aggregation
 
     
-    Combined Behavioral and Neural Analysis Outline
+    4. Combined Behavioral and Neural Analysis Outline
 
    - Correlation Between Neural Activity and Behavioral Metrics 
   
