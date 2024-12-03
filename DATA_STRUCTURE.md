@@ -120,7 +120,61 @@ Each trial is represented as a structured entry, with the following key componen
       - `choiceTrial`: Indicates if this was a choice trial.
       - `choice`: The chosen option.
     - **`params.block`**:
-      - 
+      - **General Information**:
+        - `SubjectID`: Identifier for the experimental subject (e.g., `'pumbaa'`).
+        - `sessionNumber`: Session number for the current experiment (e.g., `450`).
+        - `experimenter`: Name of the experimenter conducting the session (e.g., `'chris'`).
+        - `name`: The name of the experimental task (e.g., `'rewardChoiceFocusTask'`).
+
+      - **Experimental Parameters**:
+        - `targetAngleAll`: All potential target angles presented during the session (e.g., `[0, 60, 120, 180, 240, 300]`).
+        - `targetDistance`: Distance from the center to the target in spatial units (e.g., `300`).
+        - `targRadPunish`: Punishment radius for the target (e.g., `35`).
+        - `targWinRad`: Target window radius, defining the tolerance for target acquisition (e.g., `60`).
+        - `focusDifficultyShifts`: List of difficulty settings for focus-based tasks (e.g., `[30, 30, 30, 30]`).
+        - `focusProbabilityEasyBlock`: Probability distribution for easier blocks (e.g., `[0.1000, 0.2000, 0.3000, 0.4000]`).
+        - `focusProbabilityHardBlock`: Probability distribution for harder blocks (e.g., `[0.4000, 0.3000, 0.2000, 0.1000]`).
+
+      - **Visual and Display Settings**:
+        - `bgColor`: Background color of the display (e.g., `[128, 128, 128]` for gray).
+        - `fixColor`: Color of the fixation point (e.g., `[0, 0, 255]` for blue).
+        - `fixWinRad`: Radius of the fixation window, defining tolerance for maintaining fixation (e.g., `33`).
+        - `displayWidth`, `displayHeight`: Resolution of the display in pixels (e.g., `1024x768`).
+        - `displayHz`: Refresh rate of the display in Hz (e.g., `100`).
+        - `displayFrameTime`: Time per frame in seconds (e.g., `0.0100`).
+
+      - **Timing Parameters**:
+        - `minNumFlashes`: Minimum number of flashes presented during the task (e.g., `3`).
+        - `movementJoyTime`: Time allowed for joystick movements (e.g., `350` ms).
+        - `targetHoldMs`: Time the cursor must remain within the target to register a successful trial (e.g., `250` ms).
+        - `reactionTimeMaximum`: Maximum allowed reaction time (e.g., `340` ms).
+
+      - **Neural Recording Settings**:
+        - `neuralRecordingSamplingFrequency`: Sampling frequency for neural data (e.g., `30000` Hz).
+        - `sampleFreq`: Overall sampling frequency for all recordings (e.g., `48000` Hz).
+
+      - **Reward Parameters**:
+        - `rewardDistribution`: Type of reward distribution used (e.g., `'unif'` for uniform).
+        - `rewardDistributionParams`: Parameters for reward distribution (e.g., `[1, 5]`).
+        - `rewarding`: Flag indicating whether rewards are enabled (e.g., `1`).
+        - `variableRewardMs`: Variable reward timing (e.g., `[80, 160, 400, 3000]`).
+
+      - **Behavioral Control**:
+        - `bciEnabled`: Flag indicating whether brain-computer interface control is enabled (e.g., `0` for disabled).
+        - `blockRandomize`: Whether trials are randomized within blocks (e.g., `1` for enabled).
+        - `retry_WRONG_TARG`: Whether retries are enabled for wrong target selections (e.g., `0` for disabled).
+
+      - **Calibration and Configuration**:
+        - `calibPixX`, `calibPixY`: Calibration settings for X and Y pixel ranges.
+        - `calibVoltX`, `calibVoltY`: Voltage calibration ranges for X and Y axes.
+        - `pixPerCM`: Pixels per centimeter for screen calibration (e.g., `26.3000`).
+
+      - **Networking and System**:
+        - `bci2controlIP`: IP address for brain-computer interface control communication (e.g., `'192.168.2.10'`).
+        - `control2bciIP`: IP address for control-to-BCI communication (e.g., `'192.168.2.11'`).
+        - `nasNetFolderBciComputer`: Path to the network-attached storage folder for BCI data.
+"""
+
 
 ---
 
