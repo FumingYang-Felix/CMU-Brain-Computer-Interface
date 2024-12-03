@@ -6,6 +6,11 @@ Objective:
 - Use bootstrapping to compute confidence intervals for success rates.
 - Categorize failure types, including "overshoot" (cursor passes the target) and "undershoot" (cursor fails to reach the target).
 
+Required Data Fields:
+
+trialcodes: To extract task conditions for each trial.
+result: To identify whether a trial was successful.
+event: To detect the timing of "go cue" and target acquisition.
 
 
 2. Single-Trial Behavioral Metrics
@@ -16,3 +21,8 @@ Objective:
 - Reaction Time: Measure the time from "go cue" to the point where the cursor speed reaches 20% of the peak speed.
 - Homing Time: Calculate the time taken for the cursor to cover the last third of the distance to the target and reach the target boundary.
 - Off-Axis Error: Measure the cursor’s deviation from the target vector at the time of peak speed.
+
+Required Data Fields:
+
+event: For extracting timing points related to cursor speed changes.
+params: To distinguish different task conditions.
