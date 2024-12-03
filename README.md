@@ -33,6 +33,7 @@ For Monkey R, surface EMG data were recorded to assess muscle activation during 
 
 _______________________________________________________________________________________________________
 ***** New Experimental Design *****
+
 Building on these foundational methods, the current study introduces new task parameters to further dissect the role of task difficulty and simplified reward structures in decision-making and neural tuning.
 
   1. Simplified Reward Structure:
@@ -72,10 +73,10 @@ Structure of this Repository
 
 
 _______________________________________________________________________________________________________
-***** This repository is organized as follows *****
-Data Structure:
-Details the organization of behavioral and neural datasets, including raw and preprocessed data formats.
-Analysis Pipeline:
-Outlines the step-by-step procedures for analyzing behavioral metrics, neural data, and their combined insights.
-Results and Outputs:
-Summarizes key findings and provides visualization scripts for reproducing figures.
+This repository is organized as follows:
+
+- Data Structure: Details the organization of behavioral and neural datasets, including raw and preprocessed data formats.
+
+- Analysis Pipeline: Outlines the step-by-step procedures for analyzing behavioral metrics, neural data, and their combined insights.
+
+- Results and Outputs: Summarizes key findings and provides visualization scripts for reproducing figures.
