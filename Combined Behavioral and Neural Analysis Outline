@@ -1,0 +1,11 @@
+1. Correlation Between Neural Activity and Behavioral Metrics
+
+Objective:
+
+- Compute the correlation between neural activity (e.g., PSTH) and behavioral metrics (e.g., reaction time, success rate).
+
+Required Data Fields:
+
+spiketimesdiff: Neural activity timings.
+result: Trial success or failure outcomes.
+params: For grouping analysis by task conditions.
