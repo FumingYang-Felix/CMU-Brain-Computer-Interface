@@ -1,0 +1,38 @@
+1. PSTH Analysis
+
+Objective:
+
+- Compute Peri-Stimulus Time Histograms (PSTHs) during the delay phase ([-150, 50] ms) using a Gaussian kernel.
+- Compare neural activity trends across reward levels.
+
+Required Data Fields:
+
+spiketimesdiff: Neural spike times.
+params: To group trials by reward conditions.
+
+
+2. Single-Unit Tuning Analysis
+
+Objective:
+
+- Analyze the directional tuning curves for single units.
+- Use a two-way ANOVA to assess the effects of reward and direction on firing rates.
+- Construct firing rate tuning curves by reward condition.
+
+Required Data Fields:
+
+spiketimesdiff: Neural spike times.
+params: For grouping and statistical analysis.
+
+
+3. Trial-to-Trial Variability Analysis
+
+Objective:
+
+- Compute the Fano Factor (variance/mean firing rate) for each neuron.
+- Compare Fano Factor distributions across different reward levels.
+
+Required Data Fields:
+
+spiketimesdiff: Basis for firing rate computation.
+trialcodes: For trial grouping.
