@@ -100,9 +100,15 @@ This repository is organized as follows (You can directly search by name):
     
     4. Combined Behavioral and Neural Analysis Outline
 
-   - Correlation Between Neural Activity and Behavioral Metrics 
-  
+   - Correlation Between Neural Activity and Behavioral Metrics
+
+    5. DATA STRUCTURE   
+
+    6. Analysis pipeline
+
+    7. Results and Outputs
 
 - Analysis Pipeline: Outlines the step-by-step procedures for analyzing behavioral metrics, neural data, and their combined insights.
 
 - Results and Outputs: Summarizes key findings and provides visualization scripts for reproducing figures.
+
