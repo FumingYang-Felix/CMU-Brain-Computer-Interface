@@ -73,9 +73,35 @@ Structure of this Repository
 
 
 _______________________________________________________________________________________________________
-This repository is organized as follows:
+This repository is organized as follows (You can directly search by name):
 
-- Data Structure: Details the organization of behavioral and neural datasets, including raw and preprocessed data formats.
+    Behavioral Data Analysis Outline
+  
+   - Success Rates and Failure Modes Analysis
+  
+   - Single-Trial Behavioral Metrics
+
+    Surface EMG Analysis Outline
+
+   - Directional Tuning of EMG Signals
+  
+   - EMG Analysis During Delay Phase
+
+    Neural Data Analysis Outline
+
+   - PSTH Analysis
+  
+   - Single-Unit Tuning Analysis
+  
+   - Trial-to-Trial Variability Analysis
+  
+   - Neural Signal Aggregation
+
+    
+    Combined Behavioral and Neural Analysis Outline
+
+   - Correlation Between Neural Activity and Behavioral Metrics 
+  
 
 - Analysis Pipeline: Outlines the step-by-step procedures for analyzing behavioral metrics, neural data, and their combined insights.
 
