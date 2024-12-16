@@ -11,25 +11,7 @@ ________________________________________________________________________________
 Background:
 The foundational experimental setup involved three adult male rhesus macaques performing delayed center-out reaching tasks. Each monkey interacted with targets under varying conditions while neural data from the primary motor cortex (M1) and dorsal premotor cortex (PMd) were recorded using implanted Utah arrays. Behavioral data, such as reaction times and success rates, were collected alongside neural spike data, providing a comprehensive view of task performance and neural engagement.
 
-_______________________________________________________________________________________________________
-***** Key Experimental Details from Previous Studies *****
 
-  1. Task Design:
-
-Monkeys initiated trials by positioning a cursor at a central target. After a randomized delay, a peripheral target appeared, and a go cue prompted the monkey to move the cursor to the target within a specific time window. The reward magnitude was indicated by visual cues and varied across trials (Small, Medium, Large, Jackpot).
- 
-  2. Behavioral Metrics:
-
-Success rates depended on precise target acquisition and maintenance during the hold phase. Failure modes were categorized as overshoots (cursor moving past the target) or undershoots (cursor failing to reach the target in time).
-  
-  3. Neural Data Acquisition:
-  
-Neural activity was recorded with high temporal resolution and analyzed for directional tuning, reward modulation, and trial-to-trial variability.
-  
-  4. Surface EMG:
-  
-For Monkey R, surface EMG data were recorded to assess muscle activation during the tasks, providing additional insights into the motor execution phase.
-  
 
 _______________________________________________________________________________________________________
 ***** New Experimental Design *****
