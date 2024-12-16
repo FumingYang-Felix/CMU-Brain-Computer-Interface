@@ -12,8 +12,6 @@ This experiment investigates decision-making behavior and neural responses of rh
   - Neural activity is recorded using **Utah arrays** from the **Primary Motor Cortex (M1)** and **Dorsal Premotor Cortex (PMd)**.  
 - **Behavioral Data**:  
   - Includes reaction times, success rates, and trial outcomes.  
-- **Surface EMG**:  
-  - Recorded for **Monkey R** to assess muscle activation during motor execution.
 
 ---
 
