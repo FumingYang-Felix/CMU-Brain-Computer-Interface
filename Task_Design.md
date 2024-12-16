@@ -116,26 +116,3 @@ The experiment combines **reward levels** and **task difficulty** in a **3x3 fac
 
 ---
 
-## **7. Behavioral and Neural Goals**
-
-### **7.1 Behavioral Objectives**
-- Investigate how **reward levels** and **task difficulty** influence:  
-  - Success rates.  
-  - Reaction times.  
-  - Failure modes (e.g., overshoot, undershoot).  
-- Analyze decision-making strategies when two conditions are presented simultaneously.  
-
-### **7.2 Neural Objectives**
-- Evaluate neural activity in **M1** and **PMd** during:  
-  - **Delay Phase**: Encoding of reward and difficulty.  
-  - **Movement Phase**: Directional tuning and reward modulation.  
-- Assess trial-to-trial variability in neural encoding.
-
----
-
-## **8. Summary**
-
-This experiment introduces a controlled **decision-making task** with simplified **reward levels** and varying **task difficulties** at two fixed angles. The design provides a framework to study the trade-off between **reward** and **effort** while simultaneously examining the neural basis of motor control and decision-making.
-
----
-
