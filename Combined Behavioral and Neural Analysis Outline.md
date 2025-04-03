@@ -56,8 +56,3 @@
 - Output separate heatmaps (`.jpg`) for each combo.
 
 ---
-
-## 8. Final Checks and GitHub Upload
-- Verified each script runs without errors when valid `.mat` files are present.
-- Added English-commented versions of scripts for clarity.
-- Prepared all MATLAB code (histogram and heatmap scripts) and uploaded them to a GitHub repository.
