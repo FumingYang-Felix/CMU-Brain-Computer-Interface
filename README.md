@@ -1,4 +1,4 @@
-# Chase-Lab
+# Neural Signal Processing
 Data Structure and Analysis Overview
 
 _______________________________________________________________________________________________________
